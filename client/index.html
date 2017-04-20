@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- CDN fontawesome-->
+        <script src="https://use.fontawesome.com/a22e061702.js"></script>
+
+        <!-- CDN Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Developer's style sheet' -->
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
+
+        <!-- favicon -->
+        <link rel="icon" type="image/icon" href="favicon.ico" sizes="16x16">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="git-container">
+                <a href="https://github.com/Bobslegend61/URL-Shortener-Microservice" target="_blank"><span class="git-span"><i class="fa fa-github fa-2x"></i>&nbsp <span class="git-write">GitHub</span></span></a>
+            </div>
+            <div class="container">
+                <div class="text-center">
+                    <div class="link-icon"><i class="fa fa-link fa-3x"></i></div>
+                    <div class="lng-url-error-msg"></div>
+                    <div class="row">
+                        <div class="input-group col-md-6 col-md-offset-3 lng-url">
+                            <input class="form-control" type="text" name="lngUrl" placeholder="Enter long URL"><span class="input-group-addon btn lng-url-btn" disabled="disabled" >Shorten</span>
+                        </div>
+                    </div>
+                    <div class="sht-url-error-msg"></div>
+                    <div class="row">
+                        <div class="input-group col-md-6 col-md-offset-3 sht-url">
+                            <input class="form-control" type="text" name="shtUrl" placeholder="Enter shortened URL"><span class="input-group-addon btn sht-url-btn" disabled="disabled" >Go</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: black;
+}
+
+.git-container{
+    margin-bottom: 15px;
+}
+.git-span{
+    float: right;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px darkgray;
+}
+
+.git-write{
+    font-size: 18px;
+}
+
+.container{
+    clear: both;
+    padding: 10px 0px 10px 0px;
+    margin-top: 80px;
+}
+
+.fa-link{
+    margin-bottom: 40px;
+}
+
+.lng-url{
+    margin-bottom: 40px;
+}
+
+.lng-url-btn, .sht-url-btn{
+    background-color: #fff;
+}
+
+.lng-url-error-msg, .sht-url-error-msg{
+    font-size: 11px;
+}
